@@ -36,7 +36,7 @@ app.get("/", function(req, res){
 });
 
 app.get("/compose12312", function(req, res){
-  res.render("compose");
+  res.render("compose12312");
 });
 
 app.post("/compose12312", function(req, res){
