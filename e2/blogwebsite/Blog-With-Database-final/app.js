@@ -39,7 +39,7 @@ app.get("/compose", function(req, res){
   res.render("compose");
 });
 
-app.post("/compose", function(req, res){
+app.post("/compose12321", function(req, res){
   const post = new Post({
     title: req.body.postTitle,
     content: req.body.postBody
