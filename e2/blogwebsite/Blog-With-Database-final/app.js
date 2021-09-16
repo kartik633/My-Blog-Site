@@ -35,11 +35,11 @@ app.get("/", function(req, res){
   });
 });
 
-app.get("/compose", function(req, res){
+app.get("/compose12312", function(req, res){
   res.render("compose");
 });
 
-app.post("/compose", function(req, res){
+app.post("/compose12312", function(req, res){
   const post = new Post({
     title: req.body.postTitle,
     content: req.body.postBody
